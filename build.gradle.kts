@@ -27,8 +27,11 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
     implementation("com.codeborne:selenide:7.9.1")
     implementation ("ch.qos.logback:logback-classic:1.4.14")
+    //testImplementation ("io.github.bonigarcia:webdrivermanager:6.1.0")
 }
 
 tasks.test {
     useJUnitPlatform()
+    systemProperty ("selenide.browser", "chrome")
+    systemProperty ("selenide.headless", "true")
 }
