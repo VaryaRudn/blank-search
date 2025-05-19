@@ -1,9 +1,11 @@
+package ui;
+
 import static com.codeborne.selenide.Selenide.$;
 
 public class SearchResultsHandler extends BaseTest {
 
     public void clickSearchButton() {
-        $("button.search__button").click();
+            $("button.search__button").click();
     }
 
     public int getResultCount() {
