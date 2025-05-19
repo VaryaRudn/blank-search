@@ -1,6 +1,6 @@
 plugins {
     id("java")
-
+    id("io.qameta.allure") version "2.9.6" // Исправлено
 }
 
 group = "org.example"
