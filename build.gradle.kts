@@ -1,5 +1,6 @@
 plugins {
     id("java")
+
 }
 
 group = "org.example"
@@ -27,6 +28,10 @@ dependencies {
     implementation("com.codeborne:selenide:7.9.1")
     implementation("ch.qos.logback:logback-classic:1.4.14")
     testImplementation("io.rest-assured:rest-assured:5.4.0")
+
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-junit5
+    testImplementation("io.qameta.allure:allure-junit5:2.29.1")
+
     // testImplementation("io.github.bonigarcia:webdrivermanager:6.1.0")
 }
 
