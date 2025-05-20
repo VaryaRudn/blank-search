@@ -7,9 +7,10 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CorrectNumbTest {
+
         @Test
         public void testApiEndpoint() {
-            String url = "https://jsonplaceholder.ticode.com/posts/1";
+            String url = "https://jsonplaceholder.typicode.com/posts/1";
             Response response = RestAssured.get(url);
             int statusCode = response.getStatusCode();
 
