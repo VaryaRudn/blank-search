@@ -3,10 +3,10 @@ package ui;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SearchFunctionalityTest {
-
+public class ContactPageTest {
     @Test
     public void testApiEndpoint() {
         String url = "https://jsonplaceholder.typicode.com/posts/1";

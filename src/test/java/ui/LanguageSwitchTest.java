@@ -5,7 +5,7 @@ import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SearchFunctionalityTest {
+public class LanguageSwitchTest {
 
     @Test
     public void testApiEndpoint() {
